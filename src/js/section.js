@@ -1,12 +1,23 @@
 import '../css/section.css';
 
-const Section = ({title, date}) => {
+const Section = ({data}) => {
     return (
-        <div className="blog">
-            <span>{title}</span>
-            <span>{date}</span>
+        <div>
+        {
+            data.data.map((blog_list) => {
+                return( 
+                    <div className="blog">
+                        <div className="blog_box">
+                            <span className="title">{blog_list.title}</span>
+                            <span className="date">{blog_list.date}</span>        
+                        </div>
+                    </div>
+                );
+                }
+            )
+        }
         </div>
     );
 }
 
-export default Section;
+export default Section
