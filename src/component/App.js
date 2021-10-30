@@ -1,6 +1,7 @@
 import Header from './header';
 import Footer from './footer';
 import Section from './section';
+import Toolbar from './toolbar';
 
 const App = () => {
 
@@ -32,7 +33,10 @@ const App = () => {
   return (
     <div className="Common">
       <Header />
-      <Section data={data}/>
+      <Toolbar />
+      {data.data.map(blog_list => (
+        <Section title={blog_list.title} date={blog_list.date} id={blog_list.id} key={blog_list.id}/>
+      ))}
       <Footer />
     </div>
   );
