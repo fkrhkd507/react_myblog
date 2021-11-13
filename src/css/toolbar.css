@@ -13,6 +13,7 @@
     padding: 30px 0;
     text-align: center;
     border-bottom: 1px solid #ccc;
+    cursor: pointer;
 }
 .toolbar {
     height: 60%;
@@ -28,9 +29,4 @@ ul.toolbar_list > li {
 ul.toolbar_list > li > a{
     text-decoration: none;
     color: #fff;
-}
-
-.toolbar_wrap{
-    display: none;
-    cursor: pointer;
 }

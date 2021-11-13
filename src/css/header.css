@@ -16,4 +16,5 @@ span.header_menubar {
 
 span.header_title{
     margin-left: 20px;
+    cursor: pointer;
 }

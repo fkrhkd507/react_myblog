@@ -1,3 +1,4 @@
+import Toolbar from './toolbar';
 import '../css/header.css';
 
 const Header = () => {
@@ -9,10 +10,11 @@ const Header = () => {
     return (
       <div className="header">
           <div className="menu_header">
-            <span className="header_title">Test App</span>
+            <span className="header_title" href="/index.js">Test App</span>
             <span className="header_menubar" onClick={toolbar_click}>a</span>
           </div>
 
+          <Toolbar />
       </div>
     );
   }
