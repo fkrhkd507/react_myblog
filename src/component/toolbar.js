@@ -1,5 +1,6 @@
-import React from "react";
+import { Link } from 'react-router-dom';
 import '../css/toolbar.css';
+
 
 function Toolbar(){
 
@@ -16,12 +17,12 @@ function Toolbar(){
             <div className="toolbar_header" onClick={toolbar_exit}>Menu</div>
             <div className="toolbar">
                 <ul className="toolbar_list">
-                    <li><a href="#">Html</a></li>
-                    <li><a href="#">Css</a></li>
-                    <li><a href="#">Javascript</a></li>
-                    <li><a href="#">ReactJs</a></li>
-                    <li><a href="#">Nodejs</a></li>
-                    <li><a href="#">MySQL</a></li>
+                    <li><Link to="/Html">Html</Link></li>
+                    <li><Link to="/Css">Css</Link></li>
+                    <li><Link to="/Javascript">Javascript</Link></li>
+                    <li><Link to="/ReactJs">ReactJs</Link></li>
+                    <li><Link to="/NodeJs">Nodejs</Link></li>
+                    <li><Link to="/MySQL">MySQL</Link></li>
                 </ul>
             </div>
         </div>
