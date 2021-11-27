@@ -1,0 +1,34 @@
+textarea {
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    resize: none;
+}
+
+.write_wrap {
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
+
+.write_type {
+    height: 25px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+}
+
+select.page_type {
+    height: 25px;
+    width: 200px;
+}
+
+button.save_button:hover {
+    opacity: 0.7;
+}
+button.save_button {
+    width: 100%;
+    background: blanchedalmond;
+    border: 1px solid black;
+    outline: none;
+    display: inline-block;
+}

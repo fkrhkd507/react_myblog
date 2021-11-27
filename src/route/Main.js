@@ -1,6 +1,7 @@
 import Header from '../component/header';
 import Footer from '../component/footer';
 import Section from '../component/section';
+import Write from './Write';
 
 const Main = (e) => {
   console.log(e);
@@ -50,6 +51,7 @@ const Main = (e) => {
           <Section title={blog_list.title} date={blog_list.date} detail={blog_list.detail} id={blog_list.id} key={blog_list.id}/>
         ))}
       </div>
+      <Write />
       <Footer />
     </div>
   );
