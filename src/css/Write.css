@@ -5,12 +5,6 @@ textarea {
     resize: none;
 }
 
-.write_wrap {
-    display: inline-block;
-    float: right;
-    width: 40%;
-}
-
 .write_type {
     height: 25px;
     background: #ffffff;
@@ -19,7 +13,7 @@ textarea {
 
 select.page_type {
     height: 25px;
-    width: 200px;
+    width: 100%;
 }
 
 button.save_button:hover {
@@ -31,4 +25,34 @@ button.save_button {
     border: 1px solid black;
     outline: none;
     display: inline-block;
+}
+
+.write_input {
+    max-width: 99%;
+}
+
+.write_modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.write_wrap {
+    display: inline-block;
+    width: 500px;
+    padding: 50px;
+    background: #ccc;
+}
+
+.modal_bg {
+    position: fixed;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    opacity: 0.7;
+    top: 0;
 }

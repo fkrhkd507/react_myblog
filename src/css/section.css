@@ -31,10 +31,3 @@ span.date{
     min-height: 200px;
     padding: 15px;
 }
-
-@media (min-width: 960px){
-    .Section {
-        width: 60%;
-        display: inline-block;
-    }
-}

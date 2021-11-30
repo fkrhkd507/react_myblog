@@ -47,9 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-.Common{
-	width: 100%;
-	min-height: 100vh;
-	position: relative;
-	padding-bottom: 4vh;
+.Common {
+    max-width: 760px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 4vh;
+    margin: 0 auto;
 }
